@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, TemperatureWebServiceDelegate{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,22 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    override func viewWillAppear(_ animated: Bool)
+    {
+        super.viewWillAppear(animated)
+        
+        var webService = TemperatureWebService()
+        webService.delegate = self
+        webService.startConnection()
+    }
+    @IBOutlet weak var currentTempLabel: UILabel!
+    @IBOutlet weak var lastUpdateLabel: UILabel!
+    
+    func temperatureReceived(temperature: String, date: String)
+    {
+        currentTempLabel.text = "\(temperature) °C"
+        lastUpdateLabel.text = "\(date)"
+    }
 
 }
 

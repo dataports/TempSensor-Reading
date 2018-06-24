@@ -12,6 +12,7 @@
 		2D0F2AC720DD55B80071721E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0F2AC520DD55B80071721E /* Main.storyboard */; };
 		2D0F2AC920DD55B90071721E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0F2AC820DD55B90071721E /* Assets.xcassets */; };
 		2D0F2ACC20DD55B90071721E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0F2ACA20DD55B90071721E /* LaunchScreen.storyboard */; };
+		2D0F2AD420DD575E0071721E /* TemperatureWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F2AD320DD575E0071721E /* TemperatureWebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2D0F2AC820DD55B90071721E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D0F2ACB20DD55B90071721E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D0F2ACD20DD55B90071721E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0F2AD320DD575E0071721E /* TemperatureWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureWebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2D0F2AC120DD55B80071721E /* AppDelegate.swift */,
 				2D0F2AC320DD55B80071721E /* ViewController.swift */,
 				2D0F2AC520DD55B80071721E /* Main.storyboard */,
+				2D0F2AD320DD575E0071721E /* TemperatureWebService.swift */,
 				2D0F2AC820DD55B90071721E /* Assets.xcassets */,
 				2D0F2ACA20DD55B90071721E /* LaunchScreen.storyboard */,
 				2D0F2ACD20DD55B90071721E /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				2D0F2AC420DD55B80071721E /* ViewController.swift in Sources */,
 				2D0F2AC220DD55B80071721E /* AppDelegate.swift in Sources */,
+				2D0F2AD420DD575E0071721E /* TemperatureWebService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
